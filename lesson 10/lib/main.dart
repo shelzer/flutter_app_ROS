@@ -7,7 +7,6 @@ class ScreenWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      // theme: ThemeData(fontFamily: 'ShadowsInto'),
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
@@ -21,8 +20,6 @@ class ScreenWidget extends StatelessWidget {
               Text(
                 'Roboto font',
                 style: TextStyle(
-                  // fontFamily: 'Roboto',
-                  // fontStyle: FontStyle.italic,
                   fontWeight: FontWeight.w500,
                   fontSize: 30,
                 ),
